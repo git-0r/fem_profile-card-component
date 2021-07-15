@@ -18,9 +18,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./profile-card-component.png)
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[- Live Site URL](https://git-0r.github.io/fem_profile-card-component/)
