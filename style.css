@@ -1,4 +1,4 @@
-    body {
+ body {
       margin: 0;
       padding: 0;
       font-family: 'Kumbh Sans', sans-serif;
@@ -19,7 +19,8 @@
     }
 
     .card {
-      width: 25%;
+      width: 100%;
+      max-width: 330px;
       height: auto;
       border-radius: 10px;
       overflow: hidden;
@@ -29,7 +30,7 @@
 
     .header {
       width: 100%;
-      max-height: 20vh;
+      height: 125px;
       background-image: url("images/bg-pattern-card.svg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -38,7 +39,7 @@
     img {
       border-radius: 50%;
       border: 5px solid white;
-      margin-top: 12vh;
+      margin-top: 75px;
     }
 
     .name {
@@ -63,7 +64,6 @@
       color: hsl(0, 0%, 59%);
       font-weight: 400;
     }
-
     h1 {
       margin-bottom: 10px;
       color: hsl(229, 23%, 23%);
@@ -73,29 +73,6 @@
     /*                         Media Query                      */
     /* -------------------------------------------------------- */
 
-
-    @media (min-width: 901px) and (max-width: 1200px) {
-
-      .card {
-        width: 35%;
-      }
-    }
-
-    @media (min-width: 813px) and (max-width: 900px) {
-
-      .card {
-        width: 45%;
-      }
-
-      .header {
-        max-height: 20vw;
-      }
-
-      img {
-        margin-top: 13vw;
-      }
-    }
-
     @media (min-width: 415px) and (max-width: 812px) {
 
       .main {
@@ -103,31 +80,11 @@
 
       }
 
-      .header {
-        max-height: 15vw;
-      }
-
-      img {
-        margin-top: 8vw;
-      }
-
-      .card {
-        width: 55%;
-      }
-
     }
 
     @media (max-width: 414px) {
 
-      .card {
-        width: 85%;
-      }
-
       .main {
         background-position: 125% 300%, -25% -220%;
-      }
-
-      img {
-        margin-top: 13vh;
       }
     }
