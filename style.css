@@ -12,7 +12,8 @@
       background-color: hsl(185, 75%, 39%);
       background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
       background-repeat: no-repeat;
-      background-position: -110% 150%, 170% -80%;
+      position: absolute, absolute;
+      background-position: bottom 50vh right 50vw, top 50vh left 50vw;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -26,6 +27,7 @@
       overflow: hidden;
       background-color: white;
       text-align: center;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2),  0 3px 10px 0 rgba(0, 0, 0, 0.19);
     }
 
     .header {
@@ -67,24 +69,4 @@
     h1 {
       margin-bottom: 10px;
       color: hsl(229, 23%, 23%);
-    }
-
-    /* -------------------------------------------------------- */
-    /*                         Media Query                      */
-    /* -------------------------------------------------------- */
-
-    @media (min-width: 415px) and (max-width: 812px) {
-
-      .main {
-        background-position: top 100% left 350%, top -30% right 250%;
-
-      }
-
-    }
-
-    @media (max-width: 414px) {
-
-      .main {
-        background-position: 125% 300%, -25% -220%;
-      }
     }
